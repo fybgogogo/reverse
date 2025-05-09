@@ -1,5 +1,5 @@
 # Reversible Feature Learning for Brain Tumor Segmentation with Incomplete Modalities
-the code of our reverse feature learning method
+The code of our reverse feature learning method
 # Installation
 ```python
 pip install -r requirements.txt
@@ -11,13 +11,13 @@ pip install -r requirements.txt
 python process.py
 ```
 # Training
-* Change the paths and hyperparameters in train.py, then run:
+Change the paths and hyperparameters in train.py, then run:
 ```python
 python train.py --batch_size=x --datapath xxx --savepath xxx --num_epochs xxx --dataname BRATS20xx
 ```
 # Test
-* The trained model should be located in reverse/output, then run:
+The trained model should be located in reverse/output, then run:
 ```python
 python train.py --batch_size=x --datapath xxx --savepath xxx --num_epochs 0 --dataname BRATS20xx --resume xxx
 ```
-the resume is the path of trained model
+The resume is the path of trained model
